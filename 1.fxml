@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ADD8E6;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="348.0" fitWidth="410.0" layoutX="190.0" layoutY="92.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../png/mua-dong-tuyet-trang-1.png" />
+         </image>
+      </ImageView>
+      <TextField alignment="CENTER" layoutX="220.0" layoutY="7.0" prefHeight="54.0" prefWidth="351.0" promptText="Hello">
+         <font>
+            <Font size="36.0" />
+         </font></TextField>
+      <ImageView fitHeight="192.0" fitWidth="189.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../png/pngtree-cartoon-vector-christmas-snowman-png-image_6496757.png" />
+         </image>
+      </ImageView>
+      <TextField layoutX="28.0" layoutY="213.0" promptText="username" />
+      <PasswordField layoutX="28.0" layoutY="266.0" promptText="password" />
+   </children>
+</Pane>
